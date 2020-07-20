@@ -1,0 +1,26 @@
+h1, p {
+    font-family: Lato;
+  }
+  
+  body {
+    background: lightgray;
+    padding: 20px;
+    font-family: Helvetica;
+  }
+  
+  #app {
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    transition: all 0.2s;
+  }
+  
+  input {
+    margin-right: 5px;
+  }
+  
+  div{ margin: 5px;}
+  
+  input, select, button { padding:2px}
+  
+  #myBtn { padding:50px;}
