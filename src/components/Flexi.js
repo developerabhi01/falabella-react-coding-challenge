@@ -29,25 +29,6 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-function SimpleSelect() {
-  const classes = useStyles();
-  const [age, setAge] = React.useState('');
-
-  const handleChange = (event) => {
-    setAge(event.target.value);
-  };
-
-  return (
-    <div>
-      
-     
-    </div>
-  );
-}
-
-
-
-
 // Using Hooks latest feature
 // Props Definition
 
@@ -110,10 +91,7 @@ const Flexi = ({ onSubmit, config }) => {
             </div>
         )
         }): <p>No data received</p> }
-
-        {/* <button type="submit" onClick={formSubmitHandler}>
-          Submit
-        </button> */}
+		
 
         <Button type="submit" onClick={formSubmitHandler} variant="contained" color="primary">
           Submit
